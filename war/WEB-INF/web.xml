@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Faculty_registrationServlet</servlet-name>
+		<servlet-class>com.college.project.Faculty_registrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Faculty_registrationServlet</servlet-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Student_registrationServlet</servlet-name>
+		<servlet-class>com.college.project.Student_registrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Student_registrationServlet</servlet-name>
+		<url-pattern>/Servlet2</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>AbstractShow </servlet-name>
+		<servlet-class>com.college.project.AbstractShow </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AbstractShow </servlet-name>
+		<url-pattern>/Servlet3</url-pattern>
+	</servlet-mapping>
+	
+	
+			<servlet>
+		<servlet-name>GuideAllocationServlet </servlet-name>
+		<servlet-class>com.college.project.GuideAllocationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GuideAllocationServlet </servlet-name>
+		<url-pattern>/Servlet4</url-pattern>
+	</servlet-mapping>
+	
+	
+			<servlet>
+		<servlet-name>ShowApprovalServlet </servlet-name>
+		<servlet-class>com.college.project.ShowApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowApprovalServlet </servlet-name>
+		<url-pattern>/Servlet5</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>DeleteApproval </servlet-name>
+		<servlet-class>com.college.project.DeleteApproval</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteApproval</servlet-name>
+		<url-pattern>/Servlet6</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
